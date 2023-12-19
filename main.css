@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    margin-top: -5% !important;
+}
+
+
+#navbanner{
+    background-image: url("./images/header-background.jpg");
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    width: 100%;
+    height: 150vh;
+    
+}
+.navbar{
+    background-color: transparent !important;
+    font-weight: bold;
+    padding-top: 7%;
+    padding-bottom: 2%;
+    padding-right: 1%;
+    padding-left: 1%;
+    font-weight: 600;
+	font-size: 0.875rem;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+}
+
+.navbar .nav-item .nav-link {
+	padding-top: 0.624rem;
+	padding-bottom: 0.626rem;
+	color: white;
+	text-decoration: none;
+	transition: all 0.3s ease;
+}
+.nav-item{
+    padding-bottom: 3%;
+    padding-top: 0 !important;
+}
+.nav-item a:hover{
+    color: #525D6A !important;
+}
+.nav-item a:active{
+    color: #0B36A8 !important;
+}
+.navbar-nav{
+margin-left: 45% !important;
+gap: 1%;
+}
+
+.navbar-color{
+   
+    background-color: #000 !important;
+    width: 100%;
+    height: 20px;
+}
+.navbar-nav a{
+    margin-left: 20px !important;
+    color: white;
+}
+.navbar-nav a:active{
+    margin-left: 20px !important;
+    color: #0B36A8;
+    transition-duration: 00.1s;
+}
+.navbar-nav a:hover{
+    margin-left: 20px !important;
+    color: #70727D;
+    transition-duration: 00.1s;
+}
+#nav-icons{
+    justify-content: end;
+    display: flex;
+    background-color: #0B36A8;
+    width: 30px;
+    height: 30px;
+    border-radius: 360px;
+    margin-left: 10%;
+}
+#nav-icons:hover{
+    justify-content: end;
+    display: flex;
+    background-color: white;
+    width: 30px !important;
+    height: 30px;
+    border-radius: 360px;
+   
+}
+#nav-icons2{
+    justify-content: end;
+    display: flex;
+    background-color: #0B36A8;
+    color: white !important;
+    width: 30px !important;
+    height: 30px;
+    border-radius: 360px;
+   
+}
+#nav-icons2:hover{
+    justify-content: end;
+    display: flex;
+    background-color: white;
+    width: 30px !important;
+    height: 30px;
+    border-radius: 360px;
+   
+}
+
+.navbar-nav {
+    margin-left: -45%;
+}
+#btn5:hover{
+background-color: white !important;
+color: #0B36A8 !important;
+font-weight: 600;
+}
+#btn6:hover{
+    color: gray !important;
+}
+.btn-primary{
+    border-radius: 0px !important;
+    width: 10%;
+    height: 5%;
+    background-color: #0B36A8;
+    border: none;
+    transform: translate(100%, 250px);
+}
+.btn-primary:hover{
+    border-radius: 0px !important;
+    width: 10%;
+    height: 5%;
+    background-color: transparent !important;
+    color: white !important;
+    border: 1px solid white !important;
+    transform: translate(100%, 250px);
+}
+.btn1:hover{
+    color: #70727D !important;
+}
+#About{
+    background-color: #F7F9FB;
+}
+#About .card{
+    border: none;
+    padding: 2%;
+    background: transparent !important;
+}
+#About h2{
+    font-weight: 700;
+}
+p{
+    color: #525D6A;
+}
+#About h6{
+    color: #0B36A8;
+}
+#Services h2,p{
+    text-align: center;
+}
+#project h2,p{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+#project{
+    background-color: #F7F9FB;
+}
+#project #imgages-project img{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 5% !important;
+}
+#project .card {
+    border: none;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    background-color: transparent !important;
+}
+#project  img{
+	margin: 0;
+	transition: all 0.2s;
+    
+
+}
+#project img:hover{
+	transform: scale(1.1);
+    border-radius: 0px;
+    overflow: hidden;
+	margin-right: auto;
+	margin-left: auto;
+}
+#project p{
+    text-align: start;
+}
+#prokect .card img{
+    -webkit-transform: scale(1.5);
+	transform: scale(1.5);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+#project .card:hover img{
+	-webkit-transform: scale(1);
+	transform: scale(1.1);
+}
+.card{
+    position: relative;
+}
+#lorem{
+    padding-top: 10%;
+}
+#lorem h2{
+    font-weight: 700;
+}
+#Services img{
+    width: 50px;
+    height: 50px;
+}
+#team{
+    padding: 6%;
+}
+#team .card img{
+    width: 70px;
+    height: 70px;
+    border-radius: 360px;
+    margin-left: 7%;
+}
+#team h2{
+text-align: center;
+}
+#details h2, p{
+    text-align: center !important;
+   
+}
+#details button{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 60%;
+    height: 45px;
+    background-color: #0B36A8;
+    border: none;
+    color: white;
+    border-radius: 360px;
+    margin-right: 100% !important;
+    margin-left: 20%;
+}
+#details button:hover{
+background-color: #fff;
+border: 2px solid #0B36A8;
+color: #0B36A8;
+transition: 1s;
+}
+#inputs{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+#lorem{
+    padding-top: 10%;
+}
+#footer{
+    width: 100%;
+    height: 50vh !important;
+}
+#ikonka i{
+    background-color: #0B36A8;
+    color: white;
+    border-radius: 360px;
+    width: 50px;
+    height: 50px;
+    padding-left: 18px;
+    padding-top: 15px;
+}
+#ikonka i:hover{
+    background-color: white;
+    color: #0B36A8;
+    border-radius: 360px;
+    width: 50px;
+    height: 50px;
+    padding-left: 18px;
+    padding-top: 15px;
+}
+#ikonka{
+justify-content: center;
+align-items: center;
+display: flex;
+gap: 1%;
+padding-top: 5%;
+}
+
+#team-p{
+    transform: translate(100px, -65px);
+    font-weight: 700;
+}
+#team-p p{
+    transform: translate(-85px, 5px);  
+}
+@media screen and (max-width:2000px){
+    #header{
+        padding: 0;
+        margin: 0;
+        overflow-x: hidden !important;
+    }
+    #project img{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    } 
+    #footer p{
+        margin-bottom: 2% !important;
+        overflow: hidden;
+    }
+    .navbar-color{
+        height: 10% !important;
+    }
+}

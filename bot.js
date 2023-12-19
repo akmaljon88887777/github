@@ -1,8 +1,7 @@
 "use strict";
 
 const TelegramBot = require('node-telegram-bot-api');
-
-const token = '6457794747:AAH3pc-mEpeK_ZLRIHkenClbYRpoTUhoiHg';
+const token = '/*-------------Bu yerga Botingizni tokenini joylang-------------*/';
 
 const words = {
   "salom": `Salom! Sizga qanday yordam berishim mumkin?`,
@@ -357,3 +356,4 @@ bot.on('message', (msg) => {
   }
 
 });
+
